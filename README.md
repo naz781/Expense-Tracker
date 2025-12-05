@@ -96,5 +96,9 @@ Open http://localhost:5173
 
 * Open a Pull Request
 
-  
+  ## 🚀 Live Demo
+
+Check out the live version of this app here: [View Deployed App](expensetracker-psi-seven.vercel.app)
+
+
 
