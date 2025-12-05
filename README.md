@@ -98,7 +98,7 @@ Open http://localhost:5173
 
   ## 🚀 Live Demo
 
-Check out the live version of this app here: [expensetracker-psi-seven.vercel.app]
+Check out the live version of this app here: (expensetracker-psi-seven.vercel.app)
 
 
 
