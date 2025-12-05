@@ -95,7 +95,7 @@
 import React, { useState, useContext } from "react";
 import { mainContext } from "../context/MainContextAPI";
 import { db, auth } from "../context/firebase";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, Timestamp } from "firebase/firestore";
 import Swal from "sweetalert2";
 
 const AddExpense = () => {
@@ -124,7 +124,7 @@ const AddExpense = () => {
       price,
       description,
       purpose,
-      created_at: new Date()
+      created_at: Timestamp.fromDate(new Date())
     };
 
     try {
