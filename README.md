@@ -58,7 +58,7 @@ VITE_FIREBASE_APP_ID=your_app_id
 ```bash
 npm run dev
 ```
-Check out my project website [here](https://www.example.com)
+Check out my project website [here](https://(https://moneycanvas.vercel.app/))
 
 
 ## Notes
