@@ -1,17 +1,68 @@
-# React + Vite
+# Expense Tracker (Private)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal project for tracking expenses, built with **React**, **Vite**, **Tailwind CSS**, and **Firebase**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose
 
-## React Compiler
+The app is designed to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Keep track of personal daily expenses
+- Categorize spending for better budget analysis
+- View total expenses at a glance
+- Store data securely using Firebase
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Expense-Tracker
+## Features
+
+- Add, Edit, Delete expenses
+- Responsive design for desktop and mobile
+- Firebase integration for real-time storage
+- Category management for expense tracking
+- Total expenses summary
+
+---
+
+## Tech Stack & Dependencies
+
+### Dependencies (Required at runtime)
+- **React** – Frontend library for UI  
+- **React DOM** – Rendering React components  
+- **React Router DOM** – Page routing and navigation  
+- **Firebase** – Firestore database and Auth services  
+- **Tailwind CSS** – Styling framework  
+- **@tailwindcss/vite** – Tailwind plugin for Vite  
+- **SweetAlert2** – Popups and alerts  
+---
+
+## Project Setup (Private Use)
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+## Create a .env file with your Firebase configuration:
+
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+
+
+### Run locally:
+```bash
+npm run dev
+```
+
+The app will be available at http://localhost:5173.
+
+## Notes
+
+This project is private; do not share the repository.
+All changes and configurations are for personal use only.
+
