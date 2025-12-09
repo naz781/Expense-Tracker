@@ -1,4 +1,3 @@
-// src/components/Header.js
 import React, { useEffect, useState } from "react";
 import { auth } from "../context/firebase";
 import { GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";

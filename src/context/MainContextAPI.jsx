@@ -1,14 +1,3 @@
-// import { React, createContext, useState } from 'react'
-
-// // eslint-disable-next-line react-refresh/only-export-components
-// export const mainContext = createContext()
-
-// export const MainContextAPI = ({ children }) => {
-//     const [allExpense, setAllExpense] = useState(JSON.parse(localStorage.getItem('expense') || '[]'))
-//     return (
-//         <mainContext.Provider value={{ allExpense, setAllExpense }}>{children}</mainContext.Provider>
-//     )
-// }
 import React, { createContext, useState, useEffect } from "react";
 import { db, auth } from "./firebase";
 import { collection, getDocs, query, orderBy } from "firebase/firestore";
