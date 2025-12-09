@@ -59,7 +59,7 @@ VITE_FIREBASE_APP_ID=your_app_id
 npm run dev
 ```
 
-The app will be available at http://localhost:5173.
+The app will be available at moneycanvas.vercel.app.
 
 ## Notes
 
